@@ -1,9 +1,26 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KGarden.Superlist.Application\KGarden.Superlist.Application.csproj" />
+    <ProjectReference Include="..\KGarden.Superlist.Domain\KGarden.Superlist.Domain.csproj" />
+    <ProjectReference Include="..\KGarden.Superlist.Infra.App.Settings\KGarden.Superlist.Infra.App.Settings.csproj" />
+    <ProjectReference Include="..\KGarden.SuperList.Infra.CrossCutting.Identity\KGarden.SuperList.Infra.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\KGarden.SuperList.Infra.Data\KGarden.SuperList.Infra.Data.csproj" />
+    <ProjectReference Include="..\KGarden.Superlist.Services\KGarden.Superlist.Services.csproj" />
+  </ItemGroup>
 
 </Project>

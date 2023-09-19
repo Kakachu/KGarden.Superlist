@@ -4,14 +4,149 @@
     "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.SuperList.Infra.Data\\KGarden.SuperList.Infra.Data.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.SuperList.Infra.Data\\KGarden.SuperList.Infra.Data.csproj": {
+    "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.Superlist.Domain\\KGarden.Superlist.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.SuperList.Infra.Data\\KGarden.SuperList.Infra.Data.csproj",
-        "projectName": "KGarden.SuperList.Infra.Data",
-        "projectPath": "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.SuperList.Infra.Data\\KGarden.SuperList.Infra.Data.csproj",
+        "projectUniqueName": "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.Superlist.Domain\\KGarden.Superlist.Domain.csproj",
+        "projectName": "KGarden.Superlist.Domain",
+        "projectPath": "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.Superlist.Domain\\KGarden.Superlist.Domain.csproj",
         "packagesPath": "C:\\Users\\kauaj\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.SuperList.Infra.Data\\obj\\",
+        "outputPath": "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.Superlist.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kauaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.308\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.Superlist.Infra.App.Settings\\KGarden.Superlist.Infra.App.Settings.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.Superlist.Infra.App.Settings\\KGarden.Superlist.Infra.App.Settings.csproj",
+        "projectName": "KGarden.Superlist.Infra.App.Settings",
+        "projectPath": "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.Superlist.Infra.App.Settings\\KGarden.Superlist.Infra.App.Settings.csproj",
+        "packagesPath": "C:\\Users\\kauaj\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.Superlist.Infra.App.Settings\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kauaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.308\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.SuperList.Infra.CrossCutting.Identity\\KGarden.SuperList.Infra.CrossCutting.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.SuperList.Infra.CrossCutting.Identity\\KGarden.SuperList.Infra.CrossCutting.Identity.csproj",
+        "projectName": "KGarden.SuperList.Infra.CrossCutting.Identity",
+        "projectPath": "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.SuperList.Infra.CrossCutting.Identity\\KGarden.SuperList.Infra.CrossCutting.Identity.csproj",
+        "packagesPath": "C:\\Users\\kauaj\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.SuperList.Infra.CrossCutting.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,10 +183,6 @@
               "target": "Package",
               "version": "[7.0.10, )"
             },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.10, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -67,6 +198,18 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -85,7 +228,96 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.308\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.SuperList.Infra.Data\\KGarden.SuperList.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.SuperList.Infra.Data\\KGarden.SuperList.Infra.Data.csproj",
+        "projectName": "KGarden.SuperList.Infra.Data",
+        "projectPath": "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.SuperList.Infra.Data\\KGarden.SuperList.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\kauaj\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.SuperList.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kauaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.Superlist.Domain\\KGarden.Superlist.Domain.csproj": {
+                "projectPath": "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.Superlist.Domain\\KGarden.Superlist.Domain.csproj"
+              },
+              "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.Superlist.Infra.App.Settings\\KGarden.Superlist.Infra.App.Settings.csproj": {
+                "projectPath": "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.Superlist.Infra.App.Settings\\KGarden.Superlist.Infra.App.Settings.csproj"
+              },
+              "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.SuperList.Infra.CrossCutting.Identity\\KGarden.SuperList.Infra.CrossCutting.Identity.csproj": {
+                "projectPath": "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.SuperList.Infra.CrossCutting.Identity\\KGarden.SuperList.Infra.CrossCutting.Identity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "System.Reflection.TypeExtensions": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.308\\RuntimeIdentifierGraph.json"
         }
       }
     }

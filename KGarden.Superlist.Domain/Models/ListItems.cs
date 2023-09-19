@@ -1,4 +1,6 @@
-﻿namespace KGarden.Superlist.Domain.Models
+﻿using System;
+
+namespace KGarden.Superlist.Domain.Models
 {
 	public class ListItems
 	{

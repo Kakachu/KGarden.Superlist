@@ -48,10 +48,6 @@
               "target": "Package",
               "version": "[7.0.10, )"
             },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.10, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -67,6 +63,18 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -85,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.308\\RuntimeIdentifierGraph.json"
         }
       }
     }

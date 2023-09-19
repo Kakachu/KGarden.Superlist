@@ -2,13 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\KGarden.Superlist.Application\KGarden.Superlist.Application.csproj" />
     <ProjectReference Include="..\KGarden.Superlist.CrossCutting\KGarden.Superlist.CrossCutting.csproj" />
+    <ProjectReference Include="..\KGarden.Superlist.Domain\KGarden.Superlist.Domain.csproj" />
+    <ProjectReference Include="..\KGarden.SuperList.Infra.CrossCutting.Identity\KGarden.SuperList.Infra.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\KGarden.SuperList.Infra.CrossCutting.IoC\KGarden.SuperList.Infra.CrossCutting.IoC.csproj" />
   </ItemGroup>
 
 </Project>

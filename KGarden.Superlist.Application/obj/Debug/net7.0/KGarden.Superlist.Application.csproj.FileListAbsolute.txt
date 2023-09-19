@@ -1,0 +1,15 @@
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Application\bin\Debug\net7.0\KGarden.Superlist.Application.deps.json
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Application\bin\Debug\net7.0\KGarden.Superlist.Application.dll
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Application\bin\Debug\net7.0\KGarden.Superlist.Application.pdb
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Application\bin\Debug\net7.0\KGarden.Superlist.Domain.dll
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Application\bin\Debug\net7.0\KGarden.Superlist.Domain.pdb
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Application\obj\Debug\net7.0\KGarden.Superlist.Application.csproj.AssemblyReference.cache
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Application\obj\Debug\net7.0\KGarden.Superlist.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Application\obj\Debug\net7.0\KGarden.Superlist.Application.AssemblyInfoInputs.cache
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Application\obj\Debug\net7.0\KGarden.Superlist.Application.AssemblyInfo.cs
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Application\obj\Debug\net7.0\KGarden.Superlist.Application.csproj.CoreCompileInputs.cache
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Application\obj\Debug\net7.0\KGarden.Superlist.Application.csproj.CopyComplete
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Application\obj\Debug\net7.0\KGarden.Superlist.Application.dll
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Application\obj\Debug\net7.0\refint\KGarden.Superlist.Application.dll
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Application\obj\Debug\net7.0\KGarden.Superlist.Application.pdb
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Application\obj\Debug\net7.0\ref\KGarden.Superlist.Application.dll
