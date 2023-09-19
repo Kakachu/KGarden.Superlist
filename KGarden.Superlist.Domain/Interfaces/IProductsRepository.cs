@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using KGarden.Superlist.Domain.Models;
+using System;
 using System.Threading.Tasks;
 
 namespace KGarden.Superlist.Domain.Interfaces
 {
-	internal interface IProductsRepository
+	public interface IProductsRepository : IRepositoryDBR<Products>
 	{
+		Task<Products> GetByProductName(string name);
+
+		Task<Products> GetByCategoryId(Guid category);
 	}
 }

@@ -16,5 +16,7 @@ namespace KGarden.Superlist.Domain.Models
         public decimal? Price { get; protected set; }
 
         public Guid? CategoryId { get; protected set; }
+
+        public Categories Categories { get; protected set; }
     }
 }
