@@ -28,8 +28,16 @@
       },
       "Microsoft.CSharp/4.7.0": {},
       "KGarden.Superlist.Domain/1.0.0": {
+        "dependencies": {
+          "KGarden.Superlist.Domain.Core": "1.0.0"
+        },
         "runtime": {
           "KGarden.Superlist.Domain.dll": {}
+        }
+      },
+      "KGarden.Superlist.Domain.Core/1.0.0": {
+        "runtime": {
+          "KGarden.Superlist.Domain.Core.dll": {}
         }
       }
     }
@@ -55,6 +63,11 @@
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "KGarden.Superlist.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KGarden.Superlist.Domain.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,8 +1,9 @@
-﻿using System;
+﻿using KGarden.Superlist.Domain.Core.Models;
+using System;
 
 namespace KGarden.Superlist.Domain.Models
 {
-	public class Products
+	public class Products : EntityDBR
 	{
         public Products()
         {

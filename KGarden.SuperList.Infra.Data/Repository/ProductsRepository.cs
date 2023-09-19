@@ -15,12 +15,10 @@ namespace KGarden.SuperList.Infra.Data.Repository
 
         }
 
-        //Apply after create entityDBR and VO abstract classes
-
-        //public override async Task<Products> GetById(Guid id)
-        //{
-        //    return await _context.Products.Include(x => x.Categories).AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
-        //}
+        public override async Task<Products> GetById(Guid id)
+        {
+            return await _context.Products.Include(x => x.Categories).AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
+        }
 
         public async Task<Products> GetByProductName(string name)
         {

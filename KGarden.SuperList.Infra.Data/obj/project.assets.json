@@ -1567,6 +1567,9 @@
       "KGarden.Superlist.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "KGarden.Superlist.Domain.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/KGarden.Superlist.Domain.dll": {}
         },
@@ -1576,6 +1579,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "KGarden.Superlist.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/KGarden.Superlist.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KGarden.Superlist.Domain.Core.dll": {}
+        }
       },
       "KGarden.Superlist.Infra.App.Settings/1.0.0": {
         "type": "project",
@@ -4413,6 +4426,11 @@
       "type": "project",
       "path": "../KGarden.Superlist.Domain/KGarden.Superlist.Domain.csproj",
       "msbuildProject": "../KGarden.Superlist.Domain/KGarden.Superlist.Domain.csproj"
+    },
+    "KGarden.Superlist.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../KGarden.Superlist.Domain.Core/KGarden.Superlist.Domain.Core.csproj",
+      "msbuildProject": "../KGarden.Superlist.Domain.Core/KGarden.Superlist.Domain.Core.csproj"
     },
     "KGarden.Superlist.Infra.App.Settings/1.0.0": {
       "type": "project",

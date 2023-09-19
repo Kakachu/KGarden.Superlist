@@ -1,4 +1,5 @@
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.Identity\bin\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.Identity.deps.json
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.Identity\bin\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.Identity.runtimeconfig.json
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.Identity\bin\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.Identity.dll
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.Identity\bin\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.Identity.pdb
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.Identity\obj\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.Identity.csproj.AssemblyReference.cache
@@ -9,6 +10,5 @@ D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutti
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.Identity\obj\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.Identity.dll
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.Identity\obj\Debug\net7.0\refint\KGarden.SuperList.Infra.CrossCutting.Identity.dll
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.Identity\obj\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.Identity.pdb
-D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.Identity\obj\Debug\net7.0\ref\KGarden.SuperList.Infra.CrossCutting.Identity.dll
-D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.Identity\bin\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.Identity.runtimeconfig.json
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.Identity\obj\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.Identity.genruntimeconfig.cache
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.Identity\obj\Debug\net7.0\ref\KGarden.SuperList.Infra.CrossCutting.Identity.dll

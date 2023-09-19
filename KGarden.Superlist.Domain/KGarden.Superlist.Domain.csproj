@@ -13,4 +13,7 @@
   <ItemGroup>
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KGarden.Superlist.Domain.Core\KGarden.Superlist.Domain.Core.csproj" />
+  </ItemGroup>
 </Project>

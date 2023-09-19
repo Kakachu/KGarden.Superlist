@@ -1,11 +1,14 @@
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Domain\bin\Debug\net7.0\KGarden.Superlist.Domain.deps.json
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Domain\bin\Debug\net7.0\KGarden.Superlist.Domain.dll
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Domain\bin\Debug\net7.0\KGarden.Superlist.Domain.pdb
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Domain\bin\Debug\net7.0\KGarden.Superlist.Domain.Core.dll
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Domain\bin\Debug\net7.0\KGarden.Superlist.Domain.Core.pdb
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Domain\obj\Debug\net7.0\KGarden.Superlist.Domain.csproj.AssemblyReference.cache
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Domain\obj\Debug\net7.0\KGarden.Superlist.Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Domain\obj\Debug\net7.0\KGarden.Superlist.Domain.AssemblyInfoInputs.cache
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Domain\obj\Debug\net7.0\KGarden.Superlist.Domain.AssemblyInfo.cs
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Domain\obj\Debug\net7.0\KGarden.Superlist.Domain.csproj.CoreCompileInputs.cache
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Domain\obj\Debug\net7.0\KGarden.Superlist.Domain.csproj.CopyComplete
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Domain\obj\Debug\net7.0\KGarden.Superlist.Domain.dll
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Domain\obj\Debug\net7.0\refint\KGarden.Superlist.Domain.dll
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.Domain\obj\Debug\net7.0\KGarden.Superlist.Domain.pdb

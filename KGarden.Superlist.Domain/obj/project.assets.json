@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "KGarden.Superlist.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/KGarden.Superlist.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KGarden.Superlist.Domain.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "KGarden.Superlist.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../KGarden.Superlist.Domain.Core/KGarden.Superlist.Domain.Core.csproj",
+      "msbuildProject": "../KGarden.Superlist.Domain.Core/KGarden.Superlist.Domain.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "KGarden.Superlist.Domain.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\kauaj\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.Superlist.Domain.Core\\KGarden.Superlist.Domain.Core.csproj": {
+              "projectPath": "D:\\Dev\\Projects\\ASP.NET 7.0\\KGarden.Superlist\\KGarden.Superlist.Domain.Core\\KGarden.Superlist.Domain.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
