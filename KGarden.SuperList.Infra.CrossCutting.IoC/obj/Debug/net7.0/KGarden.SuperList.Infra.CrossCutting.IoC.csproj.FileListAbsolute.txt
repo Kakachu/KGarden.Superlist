@@ -1,12 +1,8 @@
-D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\obj\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.IoC.csproj.AssemblyReference.cache
-D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\obj\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.IoC.GeneratedMSBuildEditorConfig.editorconfig
-D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\obj\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
-D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\obj\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.IoC.AssemblyInfo.cs
-D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\obj\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\bin\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.IoC.deps.json
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\bin\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.IoC.dll
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\bin\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.IoC.pdb
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\bin\Debug\net7.0\KGarden.Superlist.Application.dll
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\bin\Debug\net7.0\KGarden.Superlist.Domain.Core.dll
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\bin\Debug\net7.0\KGarden.Superlist.Domain.dll
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\bin\Debug\net7.0\KGarden.Superlist.Infra.App.Settings.dll
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\bin\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.Identity.dll
@@ -18,6 +14,12 @@ D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutti
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\bin\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.Identity.pdb
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\bin\Debug\net7.0\KGarden.SuperList.Infra.Data.pdb
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\bin\Debug\net7.0\KGarden.Superlist.Services.pdb
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\bin\Debug\net7.0\KGarden.Superlist.Domain.Core.pdb
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\obj\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.IoC.csproj.AssemblyReference.cache
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\obj\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.IoC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\obj\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\obj\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.IoC.AssemblyInfo.cs
+D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\obj\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\obj\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.IoC.csproj.CopyComplete
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\obj\Debug\net7.0\KGarden.SuperList.Infra.CrossCutting.IoC.dll
 D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.SuperList.Infra.CrossCutting.IoC\obj\Debug\net7.0\refint\KGarden.SuperList.Infra.CrossCutting.IoC.dll

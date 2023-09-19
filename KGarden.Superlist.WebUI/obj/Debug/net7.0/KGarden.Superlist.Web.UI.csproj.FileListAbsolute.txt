@@ -1,8 +1,0 @@
-D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.WebUI\obj\Debug\net7.0\KGarden.Superlist.Web.UI.csproj.AssemblyReference.cache
-D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.WebUI\obj\Debug\net7.0\KGarden.Superlist.Web.UI.GeneratedMSBuildEditorConfig.editorconfig
-D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.WebUI\obj\Debug\net7.0\KGarden.Superlist.Web.UI.AssemblyInfoInputs.cache
-D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.WebUI\obj\Debug\net7.0\KGarden.Superlist.Web.UI.AssemblyInfo.cs
-D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.WebUI\obj\Debug\net7.0\KGarden.Superlist.Web.UI.csproj.CoreCompileInputs.cache
-D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.WebUI\obj\Debug\net7.0\KGarden.Superlist.Web.UI.MvcApplicationPartsAssemblyInfo.cache
-D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.WebUI\obj\Debug\net7.0\KGarden.Superlist.Web.UI.RazorAssemblyInfo.cache
-D:\Dev\Projects\ASP.NET 7.0\KGarden.Superlist\KGarden.Superlist.WebUI\obj\Debug\net7.0\KGarden.Superlist.Web.UI.RazorAssemblyInfo.cs

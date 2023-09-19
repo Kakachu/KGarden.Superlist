@@ -1,24 +1,25 @@
-﻿using System;
+﻿using KGarden.Superlist.Domain.Core.Models;
+using System;
 
 namespace KGarden.Superlist.Domain.Models
 {
-	public class ListItems
+	public class ListItems : EntityDBR
 	{
-        public ListItems()
-        {
-            
-        }
+		public ListItems()
+		{
 
-        public string ProductName { get; protected set; }
+		}
 
-        public decimal? PriceUN { get; protected set; }
+		public string ProductName { get; protected set; }
 
-        public decimal? PriceTotal { get; protected set; }
+		public decimal? PriceUN { get; protected set; }
 
-        public int Amount { get; protected set; } = 1;
+		public decimal? PriceTotal { get; protected set; }
 
-        public Guid ProductId { get; protected set; }
+		public int Amount { get; protected set; } = 1;
 
-        public Guid ListId { get; protected set; }
+		public Guid ProductId { get; protected set; }
+
+		public Guid ListId { get; protected set; }
 	}
 }
