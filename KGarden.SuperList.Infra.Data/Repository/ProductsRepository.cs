@@ -25,6 +25,7 @@ namespace KGarden.SuperList.Infra.Data.Repository
             return await _context.Products.AsNoTracking().FirstOrDefaultAsync(x => x.Name == name);
         }
 
+        //Update to GetAll
 		public async Task<Products> GetByCategoryId(Guid categoryId)
 		{
 			return await _context.Products.AsNoTracking().FirstOrDefaultAsync(x => x.CategoryId == categoryId);
