@@ -23,6 +23,8 @@ namespace KGarden.SuperList.Infra.CrossCutting.IoC
 
 			//Infra - Data
 			services.AddScoped<IProductsRepository, ProductsRepository>();
+			services.AddScoped<IListsRepository, ListsRepository>();
+			services.AddScoped<IListItemsRepository, ListItemsRepository>();
 
 			services.AddScoped<DBRContext>();
 		}

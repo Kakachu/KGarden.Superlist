@@ -22,11 +22,6 @@ namespace KGarden.SuperList.Infra.Data.Repository
 			return await _context.Lists.AsNoTracking().Where(x => x.Identification == identification).ToListAsync();
 		}
 
-		public async Task<List<ListItems>> GetAllItensByListId(Guid id)
-		{
-			return await _context.ListItems.AsNoTracking().Where(x => x.ListId == id).ToListAsync();
-		}
-
 		public async Task<List<Lists>> GetAllByCategory(Guid categoryId)
 		{
 			return await _context.Lists.AsNoTracking().Where(x => x.CategoryId == categoryId).ToListAsync();
