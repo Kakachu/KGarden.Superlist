@@ -1,5 +1,6 @@
 ﻿using KGarden.Superlist.Domain.Core.Models;
 using System;
+using System.Collections.Generic;
 
 namespace KGarden.Superlist.Domain.Models
 {
@@ -16,8 +17,6 @@ namespace KGarden.Superlist.Domain.Models
 
 		public string Email { get; protected set; }
 
-		public Guid? ListId { get; protected set; }
-
-		public Lists Lists { get; protected set; }
+		public List<Lists> Lists { get; protected set; }
 	}
 }

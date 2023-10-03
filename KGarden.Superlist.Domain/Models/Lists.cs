@@ -22,6 +22,8 @@ namespace KGarden.Superlist.Domain.Models
 
 		public DateTime? DateUpdated { get; protected set; }
 
+		public Guid SuperListId { get; protected set; }
+
 		public Guid? CategoryId { get; protected set; }
 	}
 }
