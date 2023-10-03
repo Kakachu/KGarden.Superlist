@@ -11,7 +11,7 @@ namespace KGarden.Superlist.Domain.Models
 
 		}
 
-		public string Name { get; protected set; }
+        public string Name { get; protected set; }
 
 		public string Identification { get; protected set; }
 
