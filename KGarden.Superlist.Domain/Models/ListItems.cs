@@ -10,13 +10,13 @@ namespace KGarden.Superlist.Domain.Models
 
 		}
 
-		public string ProductName { get; protected set; }
+        public string ProductName { get; protected set; }
 
 		public decimal? PriceUN { get; protected set; }
 
 		public decimal? PriceTotal { get; protected set; }
 
-		public int Amount { get; protected set; } = 1;
+		public int Amount { get; protected set; }
 
 		public Guid ProductId { get; protected set; }
 
