@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using KGarden.Superlist.Domain.Models;
 using System.Threading.Tasks;
 
 namespace KGarden.Superlist.Domain.Interfaces
 {
-	internal interface ICategoriesRepository
+	public interface ICategoriesRepository : IRepositoryDBR<Categories>
 	{
+		Task<Categories> GetByName(string name);
+
+		Task<Categories> GetByDescription(string description);
 	}
 }

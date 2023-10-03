@@ -1,12 +1,16 @@
-﻿using System;
+﻿using KGarden.Superlist.Domain.Models;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace KGarden.Superlist.Domain.Interfaces
 {
-	internal interface ISuperListsRepository
+	public interface ISuperListsRepository : IRepositoryDBR<SuperLists>
 	{
+		Task<List<SuperLists>> GetAllById(Guid id);
+
+		Task<List<SuperLists>> GetAllIncludeById(Guid id);
+
+		Task<List<SuperLists>> GetAllIncludeByIdentification(string identification);
 	}
 }

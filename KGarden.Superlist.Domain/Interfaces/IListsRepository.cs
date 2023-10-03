@@ -7,6 +7,8 @@ namespace KGarden.Superlist.Domain.Interfaces
 {
 	public interface IListsRepository : IRepositoryDBR<Lists>
 	{
+		Task<List<Lists>> GetAllBySuperListId(Guid superListId);
+
 		Task<List<Lists>> GetAllByIdentification(string identification);
 
 		Task<List<Lists>> GetAllByCategory(Guid categoryId);
