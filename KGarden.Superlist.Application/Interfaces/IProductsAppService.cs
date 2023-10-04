@@ -1,12 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using KGarden.Superlist.Application.ViewModels;
+using System;
 using System.Threading.Tasks;
 
 namespace KGarden.Superlist.Application.Interfaces
 {
-	public interface IProductsAppService
+	public interface IProductsAppService : IDisposable
 	{
+		Task<ProductsViewModel> GetById(Guid id);
+
+		Task<ProductsViewModel> GetByProductName(string name);
+
+		Task<ProductsViewModel> GetByCategoryId(Guid category);
+
+		Task Register(ProductsViewModel viewModel);
+
+		Task Update(ProductsViewModel viewModel);
+
+		Task Remove(Guid id);
 	}
 }
