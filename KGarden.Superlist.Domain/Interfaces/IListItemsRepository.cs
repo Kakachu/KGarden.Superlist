@@ -7,6 +7,6 @@ namespace KGarden.Superlist.Domain.Interfaces
 {
 	public interface IListItemsRepository : IRepositoryDBR<ListItems>
 	{
-		Task<List<ListItems>> GetAllItensByListId(Guid id);
+		Task<List<ListItems>> GetAllItensByListId(Guid listId);
 	}
 }
