@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <Folder Include="CommandHandlers\" />
-    <Folder Include="Commands\" />
     <Folder Include="Events\" />
     <Folder Include="EventHandlers\" />
   </ItemGroup>
