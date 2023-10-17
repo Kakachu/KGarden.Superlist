@@ -6,6 +6,6 @@ namespace KGarden.Superlist.Domain.Core.Bus
 	public interface IMediatorHandler
 	{
 		Task SendCommand<T>(T command) where T : Command;
-		Task RaiseCommand<T>(T @event, string username = null) where T : Event;
+		Task RaiseEvent<T>(T @event, string username = null) where T : Event;
 	}
 }

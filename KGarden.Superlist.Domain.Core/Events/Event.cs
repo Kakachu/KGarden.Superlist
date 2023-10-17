@@ -1,6 +1,6 @@
 ﻿namespace KGarden.Superlist.Domain.Core.Events
 {
-	public abstract class Event
+	public abstract class Event : Message
 	{
 		public DateTime Timestamp { get; protected set; }
 
