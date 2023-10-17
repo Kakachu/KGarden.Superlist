@@ -1,8 +1,10 @@
-﻿using KGarden.Superlist.Domain.Interfaces;
+﻿using KGarden.Superlist.Domain.Core.Notifications;
+using KGarden.Superlist.Domain.Interfaces;
 using KGarden.Superlist.Infra.App.Settings.Config;
 using KGarden.Superlist.Infra.App.Settings.Interface;
 using KGarden.SuperList.Infra.Data.Context;
 using KGarden.SuperList.Infra.Data.Repository;
+using MediatR;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
@@ -20,6 +22,11 @@ namespace KGarden.SuperList.Infra.CrossCutting.IoC
 
 			//Infra - AppSettings
 			services.AddScoped<IAppSettings>(x => appSettings);
+
+			//Application
+
+			//Domain - Events
+			services.AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler>();
 
 			//Infra - Data
 			services.AddScoped<IProductsRepository, ProductsRepository>();
