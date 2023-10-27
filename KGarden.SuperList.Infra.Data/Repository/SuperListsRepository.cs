@@ -38,5 +38,11 @@ namespace KGarden.SuperList.Infra.Data.Repository
 
 			return context;
 		}
+
+		public async Task<bool> AnySuperListByName(string name)
+		{
+			var context = await _context.SuperLists.AnyAsync(x => x.Name == name);
+			return context;
+		}
 	}
 }
