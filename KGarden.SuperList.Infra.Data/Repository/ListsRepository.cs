@@ -31,5 +31,11 @@ namespace KGarden.SuperList.Infra.Data.Repository
 		{
 			return await _context.Lists.AsNoTracking().Where(x => x.CategoryId == categoryId).ToListAsync();
 		}
+
+		public async Task<bool> AnyByName(string name)
+		{
+			var context = await _context.Lists.AnyAsync(x => x.Name == name);
+			return context;
+		}
 	}
 }

@@ -12,5 +12,9 @@ namespace KGarden.Superlist.Domain.Commands.SuperLists
 		public string Identification { get; protected set; }
 
 		public string Email { get; protected set; }
+
+		public DateTime DateCreated { get; protected set; }
+
+		public DateTime? DateUpdated { get; protected set;}
 	}
 }

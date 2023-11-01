@@ -6,20 +6,23 @@ namespace KGarden.Superlist.Domain.Models
 {
 	public class SuperLists : EntityDBR
 	{
-		public SuperLists(Guid id, string name, string identification, string email)
+		public SuperLists(Guid id, string name, string identification, string email, DateTime dateCreated)
 		{
 			Id = id;
 			Name = name;
 			Identification = identification;
 			Email = email;
+			DateCreated = dateCreated;
 		}
 
-		public SuperLists(SuperLists _this, string name, string identification, string email)
+		public SuperLists(SuperLists _this, string name, string identification, string email, DateTime? dateUpdated)
 		{
 			Id = _this.Id;
 			Name = name;
 			Identification = identification;
 			Email = email;
+			DateCreated = _this.DateCreated;
+			DateUpdated = dateUpdated;
 		}
 
 		public string Name { get; protected set; }
@@ -28,6 +31,10 @@ namespace KGarden.Superlist.Domain.Models
 
 		public string Email { get; protected set; }
 
-		public List<Lists> Lists { get; protected set; }
+		public DateTime DateCreated { get; protected set; }
+
+		public DateTime? DateUpdated { get; protected set; }
+
+        public List<Lists> Lists { get; protected set; }
 	}
 }

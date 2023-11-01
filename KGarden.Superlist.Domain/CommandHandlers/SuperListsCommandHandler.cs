@@ -3,6 +3,7 @@ using KGarden.Superlist.Domain.Core.Bus;
 using KGarden.Superlist.Domain.Core.Notifications;
 using KGarden.Superlist.Domain.Interfaces;
 using KGarden.Superlist.Domain.Models;
+using KGarden.Superlist.Utils.Common.Date;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
@@ -34,13 +35,13 @@ namespace KGarden.Superlist.Domain.CommandHandlers
 				return;
 			}
 
-			var any = await _superListRepository.AnySuperListByName(message.Name);
+			var any = await _superListRepository.AnyByName(message.Name);
 			if(any)
 			{
 				await _bus.RaiseEvent(new DomainNotification(message.MessageType, "Já existe uma SuperLista atrelada a este nome, será necessário informar outro nome."));
 			}
 
-			var superList = new SuperLists(message.Id, message.Name, message.Identification, message.Email);
+			var superList = new SuperLists(message.Id, message.Name, message.Identification, message.Email, DateCommon.DateNowBR());
 
 			await _superListRepository.Add(superList);
 
@@ -68,7 +69,7 @@ namespace KGarden.Superlist.Domain.CommandHandlers
 				return;
 			}
 
-			var superList = new SuperLists(superListExist, message.Name, message.Identification, message.Email);
+			var superList = new SuperLists(superListExist, message.Name, message.Identification, message.Email, DateCommon.DateNowBR());
 			await _superListRepository.Update(superList, superList.Id);
 
 			await Commit();
