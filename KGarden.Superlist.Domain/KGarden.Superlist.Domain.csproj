@@ -13,5 +13,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\KGarden.Superlist.Domain.Core\KGarden.Superlist.Domain.Core.csproj" />
+    <ProjectReference Include="..\KGarden.Superlist0.Utils.Common\KGarden.Superlist.Utils.Common.csproj" />
   </ItemGroup>
 </Project>

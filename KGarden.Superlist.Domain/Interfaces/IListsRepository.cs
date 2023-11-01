@@ -12,5 +12,7 @@ namespace KGarden.Superlist.Domain.Interfaces
 		Task<List<Lists>> GetAllByIdentification(string identification);
 
 		Task<List<Lists>> GetAllByCategory(Guid categoryId);
+
+		Task<bool> AnyByName(string name);
 	}
 }

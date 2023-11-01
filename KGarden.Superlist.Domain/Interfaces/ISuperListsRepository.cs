@@ -13,6 +13,6 @@ namespace KGarden.Superlist.Domain.Interfaces
 
 		Task<List<SuperLists>> GetAllIncludeByIdentification(string identification);
 
-		Task<bool> AnySuperListByName(string name);
+		Task<bool> AnyByName(string name);
 	}
 }
