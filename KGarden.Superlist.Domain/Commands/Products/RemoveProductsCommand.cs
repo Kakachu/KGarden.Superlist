@@ -2,9 +2,9 @@
 
 namespace KGarden.Superlist.Domain.Commands.Products
 {
-	public class ProductsRemoveCommand : ProductsCommand
+	public class RemoveProductsCommand : ProductsCommand
     {
-        public ProductsRemoveCommand(Guid id)
+        public RemoveProductsCommand(Guid id)
         {
             Id = id;
         }

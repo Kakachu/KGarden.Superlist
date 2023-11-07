@@ -1,4 +1,5 @@
 ﻿using KGarden.Superlist.Domain.Core.Models;
+using System;
 
 namespace KGarden.Superlist.Domain.Models
 {
@@ -7,6 +8,20 @@ namespace KGarden.Superlist.Domain.Models
 		public Categories()
 		{
 
+		}
+
+		public Categories(Guid id, string name, string? description)
+		{
+			Id = id;
+			Name = name;
+			Description = description;
+		}
+
+		public Categories(Categories _this, string name, string? description)
+		{
+			Id = _this.Id;
+			Name = name;
+			Description = description;
 		}
 
 		public string Name { get; protected set; }

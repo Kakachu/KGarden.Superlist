@@ -13,6 +13,12 @@ namespace KGarden.SuperList.Infra.Data.Repository
 		{
 
 		}
+		public async Task<bool> AnyByName(string name)
+		{
+			var context = await _context.Categories.AnyAsync(c => c.Name == name);
+			return context;
+		}
+
 
 		public async Task<Categories> GetByDescription(string description)
 		{

@@ -2,9 +2,9 @@
 
 namespace KGarden.Superlist.Domain.Commands.Products
 {
-	public class ProductsUpdateCommand : ProductsCommand
+	public class UpdateProductsCommand : ProductsCommand
     {
-        public ProductsUpdateCommand(Guid id, string name, string description, decimal? price, Guid? categoryId)
+        public UpdateProductsCommand(Guid id, string name, string description, decimal? price, Guid? categoryId)
         {
 			Id = id;
 			Name = name;
