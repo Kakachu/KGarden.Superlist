@@ -10,6 +10,17 @@ namespace KGarden.Superlist.Domain.Models
 
 		}
 
+        public ListItems(Guid id, string productName, decimal? priceUN, decimal? priceTotal, int amount, Guid productId, Guid listId)
+        {
+            Id = id;
+			ProductName = productName;
+			PriceUN = priceUN;
+			PriceTotal = priceTotal;
+			Amount = amount;
+			ProductId = productId;
+			ListId = listId;
+        }
+
         public string ProductName { get; protected set; }
 
 		public decimal? PriceUN { get; protected set; }

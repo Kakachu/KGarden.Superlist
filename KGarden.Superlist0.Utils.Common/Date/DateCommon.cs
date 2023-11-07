@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace KGarden.Superlist.Utils.Common.Date
+﻿namespace KGarden.Superlist.Utils.Common.Date
 {
-    public static class DateCommon
+	public static class DateCommon
     {
         public static DateTime DateNowBR()
         {

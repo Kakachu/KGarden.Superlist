@@ -1,5 +1,8 @@
-﻿using KGarden.Superlist.Application.Interfaces;
-using KGarden.Superlist.Domain.CommandHandlers;
+﻿using KGarden.Superlist.Domain.CommandHandlers;
+using KGarden.Superlist.Domain.Commands.Categories;
+using KGarden.Superlist.Domain.Commands.ListItems;
+using KGarden.Superlist.Domain.Commands.Lists;
+using KGarden.Superlist.Domain.Commands.Products;
 using KGarden.Superlist.Domain.Commands.SuperLists;
 using KGarden.Superlist.Domain.Core.Notifications;
 using KGarden.Superlist.Domain.Interfaces;
@@ -33,6 +36,20 @@ namespace KGarden.SuperList.Infra.CrossCutting.IoC
 			services.AddScoped<INotificationHandler<RegisterSuperListsCommand>, SuperListsCommandHandler>();
 			services.AddScoped<INotificationHandler<UpdateSuperListsCommand>, SuperListsCommandHandler>();
 			services.AddScoped<INotificationHandler<RemoveSuperListsCommand>, SuperListsCommandHandler>();
+
+			services.AddScoped<INotificationHandler<RegisterListsCommand>, ListsCommandHandler>();
+			services.AddScoped<INotificationHandler<UpdateListsCommand>, ListsCommandHandler>();
+			services.AddScoped<INotificationHandler<RemoveListsCommand>, ListsCommandHandler>();
+
+			services.AddScoped<INotificationHandler<RegisterListItemsCommand>, ListItemsCommandHandler>();
+			services.AddScoped<INotificationHandler<RemoveListItemsCommand>, ListItemsCommandHandler>();
+
+			services.AddScoped<INotificationHandler<RegisterProductsCommand>, ProductsCommandHandler>();
+			services.AddScoped<INotificationHandler<UpdateProductsCommand>, ProductsCommandHandler>();
+			services.AddScoped<INotificationHandler<RemoveProductsCommand>, ProductsCommandHandler>();
+
+			services.AddScoped<INotificationHandler<RegisterCategoriesCommand>, CategoriesCommandHandler>();
+			services.AddScoped<INotificationHandler<UpdateCategoriesCommand>, CategoriesCommandHandler>();
 
 			//Domain - Events
 			services.AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler>();

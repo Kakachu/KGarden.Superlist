@@ -5,16 +5,12 @@ using KGarden.Superlist.Domain.Interfaces;
 using KGarden.Superlist.Domain.Models;
 using KGarden.Superlist.Utils.Common.Date;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace KGarden.Superlist.Domain.CommandHandlers
 {
-    public class ListsCommandHandler : CommandDBRHandler,
+	public class ListsCommandHandler : CommandDBRHandler,
                                        INotificationHandler<RegisterListsCommand>,
                                        INotificationHandler<UpdateListsCommand>,
                                        INotificationHandler<RemoveListsCommand>
