@@ -1,5 +1,4 @@
 ﻿using KGarden.Superlist.Web.UI.Configurations;
-using KGarden.WebUI;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -35,7 +34,7 @@ namespace KGarden.Superlist.Web.UI
 			services.AddDependencyInjectionConfiguration(WebHostEnvironment);
 
 			//AutoMapper
-			services.AddAutoMapperConfiguration();
+			services.AutoMapperConfiguration();
 		}
     }
 }
