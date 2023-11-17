@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
 using KGarden.Superlist.Application.ViewModels;
+using KGarden.Superlist.Domain.Commands.Categories;
 using KGarden.Superlist.Domain.Commands.ListItems;
 using KGarden.Superlist.Domain.Commands.Lists;
+using KGarden.Superlist.Domain.Commands.Products;
 using KGarden.Superlist.Domain.Commands.SuperLists;
 
 namespace KGarden.Superlist.Application.AutoMapper
@@ -36,6 +38,23 @@ namespace KGarden.Superlist.Application.AutoMapper
 
 			CreateMap<ListItemsViewModel, RemoveListItemsCommand>()
 		   .ConstructUsing(c => new RemoveListItemsCommand(c.Id));
+
+			//Products
+			CreateMap<ProductsViewModel, RegisterProductsCommand>()
+		   .ConstructUsing(c => new RegisterProductsCommand(c.Id, c.Name, c.Description, c.Price, c.CategoryId));
+
+			CreateMap<ProductsViewModel, UpdateProductsCommand>()
+		   .ConstructUsing(c => new UpdateProductsCommand(c.Id, c.Name, c.Description, c.Price, c.CategoryId));
+
+			CreateMap<ProductsViewModel, RemoveProductsCommand>()
+		   .ConstructUsing(c => new RemoveProductsCommand(c.Id));
+
+			//Categories
+			CreateMap<CategoriesViewModel, RegisterCategoriesCommand>()
+		   .ConstructUsing(c => new RegisterCategoriesCommand(c.Id, c.Name, c.Description));
+
+			CreateMap<CategoriesViewModel, UpdateCategoriesCommand>()
+		   .ConstructUsing(c => new UpdateCategoriesCommand(c.Id, c.Name, c.Description));
 		}
 	}
 }
