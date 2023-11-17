@@ -18,25 +18,14 @@ namespace KGarden.SuperList.Infra.Data.Repository
 
 		}
 
-		public async Task<List<SuperLists>> GetAllById(Guid id)
+		public async Task<List<SuperLists>> GetAllByUserId(Guid userId)
 		{
-			return await _context.SuperLists.Where(x => x.Id == id).ToListAsync();
+			return await _context.SuperLists.Where(x => x.UserId == userId).ToListAsync();
 		}
 
-		public async Task<List<SuperLists>> GetAllIncludeById(Guid id)
+		public async Task<List<SuperLists>> GetAllByIdentification(string identification)
 		{
-			var context = await _context.SuperLists.Include(x => x.Lists)
-			.Where(x => x.Id == id).ToListAsync();
-
-			return context;
-		}
-
-		public async Task<List<SuperLists>> GetAllIncludeByIdentification(string identification)
-		{
-			var context = await _context.SuperLists.Include(x => x.Lists)
-				.Where(x => x.Identification == identification).ToListAsync();
-
-			return context;
+			return await _context.SuperLists.Where(x => x.Identification == identification).ToListAsync();
 		}
 
 		public async Task<bool> AnyByName(string name)

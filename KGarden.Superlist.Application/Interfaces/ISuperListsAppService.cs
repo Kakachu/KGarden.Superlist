@@ -9,11 +9,9 @@ namespace KGarden.Superlist.Application.Interfaces
 	{
 		Task<SuperListsViewModel> GetById(Guid id);
 
-		Task<List<SuperListsViewModel>> GetAllById(Guid id);
+		Task<List<SuperListsViewModel>> GetAllByUserId(Guid userId);
 
-		Task<List<SuperListsViewModel>> GetAllIncludeById(Guid id);
-
-		Task<List<SuperListsViewModel>> GetAllIncludeByIdentification(string identification);
+		Task<List<SuperListsViewModel>> GetAllByIdentification(string identification);
 
 		Task Register(SuperListsViewModel viewModel);
 

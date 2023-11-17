@@ -1,5 +1,9 @@
-﻿using KGarden.Superlist.Application.Interfaces;
+﻿using AutoMapper;
+using KGarden.Superlist.Application.Interfaces;
 using KGarden.Superlist.Application.ViewModels;
+using KGarden.Superlist.Domain.Commands.SuperLists;
+using KGarden.Superlist.Domain.Core.Bus;
+using KGarden.Superlist.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -8,44 +12,60 @@ namespace KGarden.Superlist.Application.Services
 {
 	public class SuperListsAppService : ISuperListsAppService
 	{
-		public Task<List<SuperListsViewModel>> GetAllById(Guid id)
+		private readonly IMapper _mapper;
+		private readonly IMediatorHandler _bus;
+		private readonly ISuperListsRepository _superListsRepository;
+
+		public SuperListsAppService(IMapper mapper,
+									IMediatorHandler bus,
+									ISuperListsRepository superListsRepository)
+        {
+            _mapper = mapper;
+			_bus = bus;
+			_superListsRepository = superListsRepository;
+        }
+
+        public async Task<List<SuperListsViewModel>> GetAllByUserId(Guid userId)
 		{
-			throw new NotImplementedException();
+			var superListsViewModel = _mapper.Map<List<SuperListsViewModel>>(await _superListsRepository.GetAllByUserId(userId));
+			return superListsViewModel;
 		}
 
-		public Task<List<SuperListsViewModel>> GetAllIncludeById(Guid id)
+		public async Task<List<SuperListsViewModel>> GetAllByIdentification(string identification)
 		{
-			throw new NotImplementedException();
+			var superListsViewModel = _mapper.Map<List<SuperListsViewModel>>(await _superListsRepository.GetAllByIdentification(identification));
+			return superListsViewModel;
 		}
 
-		public Task<List<SuperListsViewModel>> GetAllIncludeByIdentification(string identification)
+		public async Task<SuperListsViewModel> GetById(Guid id)
 		{
-			throw new NotImplementedException();
+			var superListsViewModel = _mapper.Map<SuperListsViewModel>(await _superListsRepository.GetById(id));
+			return superListsViewModel;
 		}
 
-		public Task<SuperListsViewModel> GetById(Guid id)
+		public async Task Register(SuperListsViewModel viewModel)
 		{
-			throw new NotImplementedException();
+			var registerCommand = _mapper.Map<RegisterSuperListsCommand>(viewModel);
+			await _bus.SendCommand(registerCommand);
 		}
 
-		public Task Register(SuperListsViewModel viewModel)
+		public async Task Update(SuperListsViewModel viewModel)
 		{
-			throw new NotImplementedException();
+			var updateCommand = _mapper.Map<UpdateSuperListsCommand>(viewModel);
+			await _bus.SendCommand(updateCommand);
 		}
 
-		public Task Remove(Guid id)
+		public async Task Remove(Guid id)
 		{
-			throw new NotImplementedException();
+			var removeCommand = _mapper.Map<RemoveSuperListsCommand>(new SuperListsViewModel { Id = id });
+			await _bus.SendCommand(removeCommand);
 		}
 
-		public Task Update(SuperListsViewModel viewModel)
-		{
-			throw new NotImplementedException();
-		}
+
 
 		public void Dispose()
 		{
-			throw new NotImplementedException();
+			GC.SuppressFinalize(this);
 		}
 	}
 }
