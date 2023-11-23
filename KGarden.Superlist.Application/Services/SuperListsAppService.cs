@@ -61,8 +61,6 @@ namespace KGarden.Superlist.Application.Services
 			await _bus.SendCommand(removeCommand);
 		}
 
-
-
 		public void Dispose()
 		{
 			GC.SuppressFinalize(this);

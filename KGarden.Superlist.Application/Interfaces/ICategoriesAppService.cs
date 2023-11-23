@@ -11,5 +11,9 @@ namespace KGarden.Superlist.Application.Interfaces
 		Task<CategoriesViewModel> GetByName(string name);
 
 		Task<CategoriesViewModel> GetByDescription(string description);
+
+		Task Register(CategoriesViewModel viewModel);
+
+		Task Update(CategoriesViewModel viewModel);
 	}
 }

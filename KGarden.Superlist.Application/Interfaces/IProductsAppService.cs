@@ -10,7 +10,7 @@ namespace KGarden.Superlist.Application.Interfaces
 
 		Task<ProductsViewModel> GetByProductName(string name);
 
-		Task<ProductsViewModel> GetByCategoryId(Guid category);
+		Task<ProductsViewModel> GetByCategoryId(Guid categoryId);
 
 		Task Register(ProductsViewModel viewModel);
 
