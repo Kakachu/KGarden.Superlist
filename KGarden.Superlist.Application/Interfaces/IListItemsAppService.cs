@@ -13,8 +13,6 @@ namespace KGarden.Superlist.Application.Interfaces
 
 		Task Register(ListItemsViewModel viewModel);
 
-		Task Update(ListItemsViewModel viewModel);
-
 		Task Remove(Guid id);
 	}
 }
