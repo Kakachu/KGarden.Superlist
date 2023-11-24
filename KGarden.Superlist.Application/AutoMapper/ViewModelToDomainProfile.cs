@@ -14,10 +14,10 @@ namespace KGarden.Superlist.Application.AutoMapper
 		{
 			//SuperLists
 			CreateMap<SuperListsViewModel, RegisterSuperListsCommand>()
-		   .ConstructUsing(c => new RegisterSuperListsCommand(c.Id, c.Name, c.Identification, c.Email, c.DateCreated, c.DateUpdated));
+		   .ConstructUsing(c => new RegisterSuperListsCommand(c.Id, c.UserId, c.Name, c.Identification, c.Email, c.DateCreated, c.DateUpdated));
 
 			CreateMap<SuperListsViewModel, UpdateSuperListsCommand>()
-		   .ConstructUsing(c => new UpdateSuperListsCommand(c.Id, c.Name, c.Identification, c.Email, c.DateCreated, c.DateUpdated));
+		   .ConstructUsing(c => new UpdateSuperListsCommand(c.Id, c.UserId, c.Name, c.Identification, c.Email, c.DateCreated, c.DateUpdated));
 
 			CreateMap<SuperListsViewModel, RemoveSuperListsCommand>()
 		   .ConstructUsing(c => new RemoveSuperListsCommand(c.Id));

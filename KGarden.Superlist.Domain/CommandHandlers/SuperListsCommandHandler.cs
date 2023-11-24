@@ -41,7 +41,7 @@ namespace KGarden.Superlist.Domain.CommandHandlers
 				await _bus.RaiseEvent(new DomainNotification(message.MessageType, "Já existe uma SuperLista atrelada a este nome, será necessário informar outro nome."));
 			}
 
-			var superList = new SuperLists(message.Id, message.Name, message.Identification, message.Email, DateCommon.DateNowBR());
+			var superList = new SuperLists(message.Id, message.UserId, message.Name, message.Identification, message.Email, DateCommon.DateNowBR());
 
 			await _superListRepository.Add(superList);
 

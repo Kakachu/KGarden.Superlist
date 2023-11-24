@@ -8,6 +8,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KGarden.Superlist.Application", "KGarden.Superlist.Application\KGarden.Superlist.Application.csproj", "{B01AFD98-2B70-412F-A2AA-24852CB9AB1E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KGarden.Superlist.Web.UI", "KGarden.Superlist.WebUI\KGarden.Superlist.Web.UI.csproj", "{44E10952-6431-4828-9216-F06A3F48C305}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1467EDF8-BEFB-4287-B138-92A9999B3814} = {1467EDF8-BEFB-4287-B138-92A9999B3814}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KGarden.Superlist.Services", "KGarden.Superlist.Services\KGarden.Superlist.Services.csproj", "{30BCABB2-4A1B-4FC7-8BA5-1376AB3D6A20}"
 EndProject
@@ -44,7 +47,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KGarden.Superlist.Domain.Co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.0 Utils.Common", "7.0 Utils.Common", "{D9CC4EF7-9E15-4401-ACE9-EA9DB42C38F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KGarden.Superlist.Utils.Common", "KGarden.Superlist0.Utils.Common\KGarden.Superlist.Utils.Common.csproj", "{D3D64958-3E46-4CE2-8392-1F969408C14D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KGarden.Superlist.Utils.Common", "KGarden.Superlist0.Utils.Common\KGarden.Superlist.Utils.Common.csproj", "{D3D64958-3E46-4CE2-8392-1F969408C14D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

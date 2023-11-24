@@ -1,12 +1,14 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.SignalR;
+using System;
 
 namespace KGarden.Superlist.Domain.Commands.SuperLists
 {
 	public class RegisterSuperListsCommand : SuperListsCommand
 	{
-        public RegisterSuperListsCommand(Guid id, string name, string identification, string email, DateTime dateCreated, DateTime? dateUpdated)
+        public RegisterSuperListsCommand(Guid id, Guid userId, string name, string identification, string email, DateTime dateCreated, DateTime? dateUpdated)
         {
             Id = id;
+			UserId = userId;
 			Name = name;
 			Identification = identification;
 			Email = email;

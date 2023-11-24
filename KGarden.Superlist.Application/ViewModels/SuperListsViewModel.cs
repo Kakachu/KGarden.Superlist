@@ -7,7 +7,9 @@ namespace KGarden.Superlist.Application.ViewModels
 	{
         public Guid Id { get; set; }
 
-        public string Name { get; set; }
+        public Guid UserId { get; set; }
+
+		public string Name { get; set; }
 
 		public string Identification { get; set; }
 
@@ -16,7 +18,5 @@ namespace KGarden.Superlist.Application.ViewModels
 		public DateTime DateCreated { get; set; }
 
 		public DateTime? DateUpdated { get; set; }
-
-		public List<ListsViewModel> Lists { get; set; }
 	}
 }

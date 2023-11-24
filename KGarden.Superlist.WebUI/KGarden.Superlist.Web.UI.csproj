@@ -1,5 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
@@ -15,7 +22,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\KGarden.Superlist.Application\KGarden.Superlist.Application.csproj" />
-    <ProjectReference Include="..\KGarden.Superlist.CrossCutting\KGarden.Superlist.CrossCutting.csproj" />
     <ProjectReference Include="..\KGarden.Superlist.Domain\KGarden.Superlist.Domain.csproj" />
     <ProjectReference Include="..\KGarden.SuperList.Infra.CrossCutting.Identity\KGarden.SuperList.Infra.CrossCutting.Identity.csproj" />
     <ProjectReference Include="..\KGarden.SuperList.Infra.CrossCutting.IoC\KGarden.SuperList.Infra.CrossCutting.IoC.csproj" />
