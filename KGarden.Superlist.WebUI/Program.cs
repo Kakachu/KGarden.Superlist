@@ -1,6 +1,7 @@
-using KGarden.Superlist.Web.UI;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
 
-namespace KGarden.WebUI
+namespace KGarden.Superlist.Web.UI
 {
 	public class Program
 	{
