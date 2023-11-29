@@ -1,9 +1,13 @@
-﻿using KGarden.Superlist.Domain.CommandHandlers;
+﻿using AutoMapper;
+using KGarden.Superlist.Application.Interfaces;
+using KGarden.Superlist.Application.Services;
+using KGarden.Superlist.Domain.CommandHandlers;
 using KGarden.Superlist.Domain.Commands.Categories;
 using KGarden.Superlist.Domain.Commands.ListItems;
 using KGarden.Superlist.Domain.Commands.Lists;
 using KGarden.Superlist.Domain.Commands.Products;
 using KGarden.Superlist.Domain.Commands.SuperLists;
+using KGarden.Superlist.Domain.Core.Bus;
 using KGarden.Superlist.Domain.Core.Notifications;
 using KGarden.Superlist.Domain.Interfaces;
 using KGarden.Superlist.Infra.App.Settings.Config;
@@ -31,6 +35,13 @@ namespace KGarden.SuperList.Infra.CrossCutting.IoC
 			services.AddScoped<IAppSettings>(x => appSettings);
 
 			//Application
+			services.AddScoped<IMapper>(sp => new Mapper(sp.GetRequiredService<IConfigurationProvider>(), sp.GetService));
+
+			services.AddScoped<ICategoriesAppService, CategoriesAppService>();
+			services.AddScoped<IListItemsAppService, ListItemsAppService>();
+			services.AddScoped<IListsAppService, ListsAppService>();
+			services.AddScoped<IProductsAppService, ProductsAppService>();
+			services.AddScoped<ISuperListsAppService, SuperListsAppService>();
 
 			//Domain - Commands
 			services.AddScoped<INotificationHandler<RegisterSuperListsCommand>, SuperListsCommandHandler>();
@@ -58,6 +69,8 @@ namespace KGarden.SuperList.Infra.CrossCutting.IoC
 			services.AddScoped<IProductsRepository, ProductsRepository>();
 			services.AddScoped<IListsRepository, ListsRepository>();
 			services.AddScoped<IListItemsRepository, ListItemsRepository>();
+			services.AddScoped<ISuperListsRepository, SuperListsRepository>();
+			services.AddScoped<IProductsRepository, ProductsRepository>();
 
 			services.AddScoped<IUnitOfWorkDBR, UnitOfWorkDBR>();
 
