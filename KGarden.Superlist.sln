@@ -49,6 +49,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.0 Utils.Common", "7.0 Uti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KGarden.Superlist.Utils.Common", "KGarden.Superlist0.Utils.Common\KGarden.Superlist.Utils.Common.csproj", "{D3D64958-3E46-4CE2-8392-1F969408C14D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KGarden.SuperList.Infra.CrossCutting.Bus", "KGarden.SuperList.Infra.CrossCutting.Bus\KGarden.SuperList.Infra.CrossCutting.Bus.csproj", "{1E72F413-B2CF-4BF1-9414-B621C335C8F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{D3D64958-3E46-4CE2-8392-1F969408C14D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3D64958-3E46-4CE2-8392-1F969408C14D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3D64958-3E46-4CE2-8392-1F969408C14D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E72F413-B2CF-4BF1-9414-B621C335C8F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E72F413-B2CF-4BF1-9414-B621C335C8F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E72F413-B2CF-4BF1-9414-B621C335C8F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E72F413-B2CF-4BF1-9414-B621C335C8F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -112,6 +118,7 @@ Global
 		{BC1B3CB1-1654-455C-8B7D-B39F1FD9DC56} = {030F00C5-7546-4626-94D1-0CA9DD0DD57F}
 		{1467EDF8-BEFB-4287-B138-92A9999B3814} = {C5822473-E59F-46CF-8D70-C24B4187585F}
 		{D3D64958-3E46-4CE2-8392-1F969408C14D} = {D9CC4EF7-9E15-4401-ACE9-EA9DB42C38F2}
+		{1E72F413-B2CF-4BF1-9414-B621C335C8F3} = {2E260F07-8F54-4A29-A911-B19105D8C05C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3B7528E5-61F3-4551-8270-16CBAEDA31B0}

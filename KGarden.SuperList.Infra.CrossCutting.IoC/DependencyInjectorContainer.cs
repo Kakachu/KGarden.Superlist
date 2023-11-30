@@ -12,6 +12,7 @@ using KGarden.Superlist.Domain.Core.Notifications;
 using KGarden.Superlist.Domain.Interfaces;
 using KGarden.Superlist.Infra.App.Settings.Config;
 using KGarden.Superlist.Infra.App.Settings.Interface;
+using KGarden.SuperList.Infra.CrossCutting.Bus;
 using KGarden.SuperList.Infra.Data.Context;
 using KGarden.SuperList.Infra.Data.Repository;
 using KGarden.SuperList.Infra.Data.UoW;
@@ -30,6 +31,9 @@ namespace KGarden.SuperList.Infra.CrossCutting.IoC
 
 			//ASP.NET HttpContext dependency
 			services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+			// Domain Bus (Mediator)
+			services.AddScoped<IMediatorHandler, InMemoryBus>();
 
 			//Infra - AppSettings
 			services.AddScoped<IAppSettings>(x => appSettings);
@@ -71,6 +75,7 @@ namespace KGarden.SuperList.Infra.CrossCutting.IoC
 			services.AddScoped<IListItemsRepository, ListItemsRepository>();
 			services.AddScoped<ISuperListsRepository, SuperListsRepository>();
 			services.AddScoped<IProductsRepository, ProductsRepository>();
+			services.AddScoped<ICategoriesRepository, CategoriesRepository>();
 
 			services.AddScoped<IUnitOfWorkDBR, UnitOfWorkDBR>();
 

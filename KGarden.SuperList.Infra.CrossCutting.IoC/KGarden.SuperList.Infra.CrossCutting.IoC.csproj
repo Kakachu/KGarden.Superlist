@@ -18,6 +18,7 @@
     <ProjectReference Include="..\KGarden.Superlist.Application\KGarden.Superlist.Application.csproj" />
     <ProjectReference Include="..\KGarden.Superlist.Domain\KGarden.Superlist.Domain.csproj" />
     <ProjectReference Include="..\KGarden.Superlist.Infra.App.Settings\KGarden.Superlist.Infra.App.Settings.csproj" />
+    <ProjectReference Include="..\KGarden.SuperList.Infra.CrossCutting.Bus\KGarden.SuperList.Infra.CrossCutting.Bus.csproj" />
     <ProjectReference Include="..\KGarden.SuperList.Infra.CrossCutting.Identity\KGarden.SuperList.Infra.CrossCutting.Identity.csproj" />
     <ProjectReference Include="..\KGarden.SuperList.Infra.Data\KGarden.SuperList.Infra.Data.csproj" />
     <ProjectReference Include="..\KGarden.Superlist.Services\KGarden.Superlist.Services.csproj" />

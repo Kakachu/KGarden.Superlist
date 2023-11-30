@@ -5,7 +5,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Globalization;
-using MediatR;
 using System.Reflection;
 
 namespace KGarden.Superlist.Web.UI
@@ -33,6 +32,8 @@ namespace KGarden.Superlist.Web.UI
 
 			services.AddMemoryCache();
 
+			services.AddDatabaseDeveloperPageExceptionFilter();
+
 			//DBContexts Settings
 			services.AddDataBaseConfiguration(Configuration);
 
@@ -55,7 +56,7 @@ namespace KGarden.Superlist.Web.UI
 			if (enviroment.IsDevelopment())
 			{
 				app.UseDeveloperExceptionPage();
-				app.UseDatabaseErrorPage();
+				app.UseMigrationsEndPoint();
 			}
 			else
 			{
