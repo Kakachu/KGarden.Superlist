@@ -3,7 +3,6 @@ using KGarden.Superlist.Domain.Core.Bus;
 using KGarden.Superlist.Domain.Core.Notifications;
 using KGarden.Superlist.Domain.Interfaces;
 using KGarden.Superlist.Domain.Models;
-using KGarden.Superlist.Utils.Common.Date;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
